@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>from task</title>
+  </head>
+
+  <body>
+    <form>
+      <fieldset
+        style="background-color: rgb(151, 121, 161); color: rgb(12, 0, 0)"
+      >
+        <legend style="background-color: rgb(251, 242, 255)" rows="2" cols="12">
+          personal data
+        </legend>
+        <fieldset style="background-color: rgb(94, 86, 112)">
+          <br />
+          <legend style="background-color: rgb(251, 242, 255)">
+            <br /><br />yourname<br /><br /><br />
+          </legend>
+          <br />
+          <table>
+            <tr>
+              <td><label for="fname">first name</label></td>
+              <td>:</td>
+              <td>
+                <input
+                  required
+                  id="fname"
+                  type="text"
+                  name="fname"
+                  placeholder="ex ahmed"
+                />
+              </td>
+            </tr>
+
+            <tr>
+              <td><label for="secondname">secand name</label></td>
+              <td>:</td>
+              <td>
+                <input
+                  required
+                  id="secondname"
+                  type="text"
+                  name="sname"
+                  placeholder="ex bahnasy"
+                />
+              </td>
+            </tr>
+          </table>
+          <br />
+        </fieldset>
+
+        <br />
+        <br />
+        <table>
+          <tr>
+            <td><label for="phone">your phone</label></td>
+            <td>:</td>
+            <td><input required id="phone" type="tel" name="phone" /></td>
+          </tr>
+          <tr>
+            <td><label for="email">email</label></td>
+            <td>:</td>
+            <td><input required id="email" type="email" name="email" /></td>
+          </tr>
+          <tr>
+            <td><label for="pass">password</label></td>
+            <td>:</td>
+            <td><input required id="pass" type="password" name="pass" /></td>
+          </tr>
+          <tr>
+            <td><label for="re-pass">re-password</label></td>
+            <td>:</td>
+            <td>
+              <input required id="re-pass" type="password" name="re-pass" />
+            </td>
+          </tr>
+        </table>
+        <br />
+        <br />
+        <input
+          value="male"
+          required
+          id="gender"
+          type="radio"
+          name="gender"
+        /><label for="gender">male</label>
+        <br />
+        <input
+          value="female"
+          required
+          id="gender"
+          type="radio"
+          name="gender"
+        /><label for="gender">female</label>
+        <br />
+        <br />
+        <input id="level" type="checkbox" name="level" value="student" /><label
+          for="level"
+          >student</label
+        >
+        <br />
+        <input
+          id="level"
+          type="checkbox"
+          name="level"
+          value="graduated"
+        /><label for="level">graduated</label>
+        <br />
+        <br />
+        <label for="car"> type of car:</label>
+        <select style="width: 120" required id="car" name="car">
+          <option selected hidden>selected car</option>
+          <optgroup label="bmw">
+            <option value="bmwx5">bmwx4</option>
+            <option value="bmwx4">bmwx4</option>
+          </optgroup>
+          <optgroup label="awudi">
+            <option value="audi 1">bmwx4</option>
+            <option value="audi 6">bmwx4</option>
+            <option value="audi 7">bmwx4</option>
+          </optgroup>
+        </select>
+        <br />
+        <br><br><br><br><br><br><br>
+        <input type="image" width="50" src="download (3).jpg" />
+      </fieldset>
+    </form>
+  </body>
+</html>
